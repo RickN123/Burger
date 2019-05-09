@@ -50,7 +50,7 @@ var orm = {
 
         console.log(queryString);
 
-        connection.query(queryString, vals, function (err, restult) {
+        connection.query(queryString, vals, function (err, result) {
             if (err) {
                 throw err
             }
