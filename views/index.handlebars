@@ -12,7 +12,7 @@
 
 <h2>Place Another Burger Order!</h2>
 
-<form class="create-form">
+<form class="create-form" method="POST" action="/api/burgers">
     <div class="form-group">
         <label for="burgertype"> New Burger: </label> <input type="text" id="burgertype" name="burger">
     </div>
@@ -24,6 +24,6 @@
         <input type="radio" name="devoured" value="0" checked> Burger not eaten!
     </div>
 
-    <button type="submit"> Add Your Burger Order</button>
+    <button id="burgerplex" type="submit"> Add Your Burger Order</button>
 
 </form>

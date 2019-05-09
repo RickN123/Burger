@@ -1,0 +1,20 @@
+li {
+    padding: 20px;
+    margin: 20px;
+    background: #ffffff;
+  }
+  
+  .label {
+    font-weight: bold;
+    color: rgb(7, 7, 7)
+  }
+  
+  .create-update-form {
+    padding: 15px;
+    margin: 15px;
+    background: aqua;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+  }
