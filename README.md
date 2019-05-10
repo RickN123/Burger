@@ -18,6 +18,6 @@ Handlebars, SQL, Javascript.
 
 
 ## Heroku Link
-https://sheltered-plains-85162.herokuapp.com/
+
 
 Thank you for your time!
