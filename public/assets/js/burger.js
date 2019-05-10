@@ -1,5 +1,11 @@
 
 $(document).ready(function () {
+    $('.not-devoured').on('click', function (e) {
+        console.log(this)
+        var parentElement = $(this).parent()
+        parentElement.addClass('to-right')
+    })
+
     $(".change-devoured").on("click", function (event) {
         var id = $(this).data("id");
         var newdevoured = $(this).data("newdevoured");
@@ -27,7 +33,7 @@ $(document).ready(function () {
 
         var newburger = {
             burger_name: $("#burgertype").val().trim(),
-            devoured: $("[name=devoured]:checked").val().trim()
+            devoured: "0"
         };
 
         // Send the POST request.

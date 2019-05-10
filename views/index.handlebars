@@ -1,6 +1,6 @@
-<h1>Burgers Hot and Ready!</h1>
+<h1 class="text-center" "bg-warning">Burgers Hot and Ready!</h1>
 
-<h2>Place Your Burger Orders Here</h2>
+<h2 class="text-center">Place Your Burger Orders Below</h2>
 
 <ul>
     {{#each burgers}}
@@ -10,19 +10,19 @@
     {{/each}}
 </ul>
 
-<h2>Place Another Burger Order!</h2>
+<h3 class="text-center">Place Another Burger Order!</h3>
 
 <form class="create-form" method="POST" action="/api/burgers">
     <div class="form-group">
         <label for="burgertype"> New Burger: </label> <input type="text" id="burgertype" name="burger">
     </div>
 
-    <div class="form-group">
+    {{!-- <div class="form-group">
         <label for="devoured">Was the burger devoured?</label>
         <br>
         <input type="radio" name="devoured" value="1" checked> BURGER DEVOURED!<br>
         <input type="radio" name="devoured" value="0" checked> Burger not eaten!
-    </div>
+    </div> --}}
 
     <button id="burgerplex" type="submit"> Add Your Burger Order</button>
 

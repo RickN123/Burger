@@ -3,6 +3,14 @@ li {
     margin: 20px;
     background: #ffffff;
   }
+
+li.to-right {
+  padding-left: 400px;
+}
+
+li.to-right button {
+  background: rgb(34, 172, 34);
+}
   
   .label {
     font-weight: bold;
@@ -18,3 +26,7 @@ li {
   .form-group {
     margin-bottom: 10px;
   }
+body {
+background-image:url(../img/burgerpaper.jpg);
+
+}
